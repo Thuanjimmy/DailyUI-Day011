@@ -1,0 +1,63 @@
+body{
+    background-color: #222831;
+    text-align: center;
+}
+h2{
+    margin-top: 75px;
+}
+i{
+    margin-top: 85px;
+}
+button{
+    margin-top: 120px;
+}
+.container{
+    display: flex;
+}
+.box1{
+    background-color: #dddddd;
+    border-radius: 50px;
+    width: 300px;
+    height: 500px;
+    margin: 100px auto;
+    box-shadow: 5px 5px 15px 5px #121013;
+    z-index: -1;
+}
+
+.box2{
+    background-color: #dddddd;
+    border-radius: 50px;
+    box-shadow: 5px 5px 15px 5px #121013;
+    width: 300px;
+    margin: 100px auto;
+    height: 500px;
+    z-index: -1;
+}
+
+.halfcircle{
+    width: 300px;
+    height: 400px; /* as the half of the width */
+    background-color: red;
+    border-top-left-radius: 110px;  /* 100px of height + 10px of border */
+    border-top-right-radius: 110px; /* 100px of height + 10px of border */
+    border: 10px solid gray;
+    border-bottom: 200;
+    transform: rotate(180deg);
+    position: absolute;
+    z-index: 0;
+}
+.inside{
+    position: relative;
+}
+.halfcircle1{
+    width: 300px;
+    height: 400px; /* as the half of the width */
+    background-color: green;
+    border-top-left-radius: 110px;  /* 100px of height + 10px of border */
+    border-top-right-radius: 110px; /* 100px of height + 10px of border */
+    border: 10px solid gray;
+    border-bottom: 200;
+    transform: rotate(180deg);
+    position: absolute;
+    z-index: 0;
+}
